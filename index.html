@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Memória de Cores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo das Cores</h1>
+        
+        <!-- Botão Iniciar Jogo -->
+        <button id="startButton">Iniciar Jogo</button>
+        
+        <!-- Placar (nível atual) -->
+        <div id="levelDisplay">Nível: 0</div>
+        
+        <!-- Grade de Botões Coloridos -->
+        <div class="color-buttons">
+            <button class="color-button" id="redButton" style="background-color: red;"></button>
+            <button class="color-button" id="greenButton" style="background-color: green;"></button>
+            <button class="color-button" id="yellowButton" style="background-color: yellow;"></button>
+            <button class="color-button" id="blueButton" style="background-color: blue;"></button>
+        </div>
+        
+        <!-- Mensagem de erro -->
+        <div id="errorMessage" class="hidden">Errou!</div>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
